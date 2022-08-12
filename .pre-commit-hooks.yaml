@@ -1,6 +1,13 @@
 - id: terraform-conda
   name: terraform-conda
-  entry: terraform fmt
+  entry: |
+    fmt_multiple () {
+      args = $1
+      for target in $2; do
+        terraform fmt ${args[@]} $target
+      done
+    }
+    fmt_multiple $@
   language: conda
   description: Rewrites all Terraform configuration files to a canonical format.
   types: [text]
