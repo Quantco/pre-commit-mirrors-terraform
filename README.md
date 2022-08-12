@@ -4,7 +4,7 @@ terraform(-conda) mirror
 Mirror of terraform for pre-commit with conda as a language.
 
 * For pre-commit: see https://github.com/pre-commit/pre-commit
-* For terraform: see https://github.com/terraform/terraform
+* For terraform: see https://github.com/hashicorp/terraform
 
 ### Using terraform with pre-commit and conda:
 
