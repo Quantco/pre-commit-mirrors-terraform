@@ -1,0 +1,4 @@
+channels:
+  - conda-forge
+dependencies:
+  - terraform=1.2.7

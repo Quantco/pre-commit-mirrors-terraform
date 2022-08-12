@@ -1,0 +1,8 @@
+- id: terraform-conda
+  name: terraform-conda
+  entry: terraform fmt
+  language: conda
+  description: Rewrites all Terraform configuration files to a canonical format.
+  types: [tf, tfvars]
+  require_serial: true
+  additional_dependencies: []
