@@ -4,5 +4,6 @@
   language: conda
   description: Rewrites all Terraform configuration files to a canonical format.
   types: [text]
+  files: \.(tf|tfvars)$
   require_serial: true
   additional_dependencies: []
